@@ -1,0 +1,22 @@
+---
+---
+
+@import "{{ site.theme }}";
+
+nav {
+  text-align: center;
+  margin-top: 0.25rem;
+  margin-bottom: 0.5rem;
+  font-size: 0.95rem;
+
+  a {
+    margin-right: 2.2rem;
+    color: #fff;
+    text-decoration: none;
+
+    &:hover {
+      text-decoration: underline;
+    }
+  }
+}
+
